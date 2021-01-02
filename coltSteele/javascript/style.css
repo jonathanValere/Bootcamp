@@ -6,3 +6,11 @@ main{
 h1{
 	text-align: center;
 }
+
+img{
+	width: 100px;
+}
+
+li{
+	list-style: none;
+}
