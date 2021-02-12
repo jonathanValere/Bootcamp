@@ -385,6 +385,18 @@
   "resolved" "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
   "version" "1.1.1"
 
+"ejs-mate@^3.0.0":
+  "integrity" "sha512-9dw3DkvHsUDm9ZcWveQYzIDCOCVpTtaQ7KXE+0/fmxZVtef1q2J00f4qPQvH7I12BQUza0S+5AqZAHh3M96zXA=="
+  "resolved" "https://registry.npmjs.org/ejs-mate/-/ejs-mate-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "ejs" "^2.6.1"
+
+"ejs@^2.6.1":
+  "integrity" "sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA=="
+  "resolved" "https://registry.npmjs.org/ejs/-/ejs-2.7.4.tgz"
+  "version" "2.7.4"
+
 "ejs@^3.1.5":
   "integrity" "sha512-dldq3ZfFtgVTJMLjOe+/3sROTzALlL9E34V4/sDtUd/KlBSS0s6U1/+WPE1B4sj9CXHJpL1M6rhNJnc9Wbal9w=="
   "resolved" "https://registry.npmjs.org/ejs/-/ejs-3.1.5.tgz"

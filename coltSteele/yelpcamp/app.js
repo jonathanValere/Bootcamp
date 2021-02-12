@@ -1,7 +1,8 @@
 const express = require('express');
 const mongoose = require("mongoose");
 const methodOverride = require("method-override");
-const Campground = require("./models/campground")
+const Campground = require("./models/campground");
+const ejsMate = require("ejs-mate");
 
 const port = 3000;
 const path = require('path');
@@ -17,6 +18,7 @@ db.once('open', ()=> {
 const app = express();
 
 //paramètre pour ejs et views
+app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 //paramètre pour la méthode post et l'url
