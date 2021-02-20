@@ -19,9 +19,3 @@ app.post("/", (req,res)=>{
 app.listen(port,()=>{
 	console.log(`Server is running on ${port}`);
 })
-
-// api key
-// 7cd38b0ef17edbceac40d836662d7549-us7
-
-// list id
-// e6d9cddb7a
