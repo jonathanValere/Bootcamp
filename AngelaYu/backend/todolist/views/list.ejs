@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>List</title>
+</head>
+<body>
+	<h1>List items</h1>
+	<ul>
+		<% for(let item of listItems){%>
+			<li><%= item %></li>
+		<%}%>
+	</ul>
+	<form action="/list" method="post">
+		<input type="text" name="newItem" placeholder="new item">
+		<button type="submit">Add</button>
+	</form>
+</body>
+</html>
