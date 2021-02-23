@@ -61,6 +61,7 @@ app.get('/campgrounds/:id/edit', async (req,res)=>{
 	res.render('campgrounds/edit', { campground });
 })
 
+//mettre à jour un camping
 app.put("/campgrounds/:id", async(req,res)=>{
 	const {id} = req.params;
 	const campground = await Campground.findByIdAndUpdate(id,{...req.body.campground});
